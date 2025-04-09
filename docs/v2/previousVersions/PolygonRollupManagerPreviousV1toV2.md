@@ -301,7 +301,7 @@ It tries to consolidate the first and the middle pending state in the queue
     uint64 pendingStateNum
   ) external
 ```
-Allows to consolidate any pending state that has already exceed the pendingStateTimeout
+Allows to consolidate any pending state that has already exceeded the pendingStateTimeout
 Can be called by the trusted aggregator, which can consolidate any state without the timeout restrictions
 
 
@@ -318,7 +318,7 @@ Can be called by the trusted aggregator, which can consolidate any state without
     uint64 pendingStateNum
   ) internal
 ```
-Internal function to consolidate any pending state that has already exceed the pendingStateTimeout
+Internal function to consolidate any pending state that has already exceeded the pendingStateTimeout
 
 
 #### Parameters:
@@ -609,7 +609,7 @@ Function to calculate the reward to verify a single batch
   ) public returns (uint256)
 ```
 Get batch fee
-This function is used instad of the automatic public view one,
+This function is used instead of the automatic public view one,
 because in a future might change the behaviour and we will be able to mantain the interface
 
 
@@ -748,7 +748,7 @@ Emitted when a new rollup type is added
   )
 ```
 
-Emitted when a a rolup type is obsoleted
+Emitted when a rolup type is obsoleted
 
 ### CreateNewRollup
 ```solidity
@@ -772,7 +772,7 @@ Emitted when an existing rollup is added
   )
 ```
 
-Emitted when a rollup is udpated
+Emitted when a rollup is updated
 
 ### OnSequenceBatches
 ```solidity
