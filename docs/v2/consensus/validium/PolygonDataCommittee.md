@@ -7,7 +7,7 @@
   function constructor(
   ) public
 ```
-Disable initializers on the implementation following the best practices
+Disable initalizers on the implementation following the best practices
 
 
 
