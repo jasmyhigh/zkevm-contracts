@@ -4,7 +4,7 @@ In order to verify the smart contract, you will need a machine with at least 512
 
 In this tutorial we will give instructions for a r6a.16xlarge aws instance. This instance has 32 cores 64 threads. The instance will use Ubuntu 22.04 LTS and the cost of the instance is about 3.62$/h. This process is quite long, it takes approximately 4-5 hours.
 
-So lets start by launching and instance.
+So let's start by launching an instance.
 
 ## Basic OS preparation
 
@@ -104,7 +104,7 @@ npm install hardhat
 mkdir -p contracts/verifiers
 ```
 
-To generate the same bycode it's important recover exactlly same options used during compilation, we found this information with contract information on etherscan (Settings).
+To generate the same bytecode it's important recover exactly same options used during compilation, we found this information with contract information on etherscan (Settings).
 Copy this information inside the file ~/contract/settings.json, as follows:
 
 ```bash
@@ -213,7 +213,7 @@ To download bytecode of deployed smartcontract, need the address of smart contra
 
 Go to Etherscan or Beaconcha to get transaction bytecode.
 
-Associated with address _0x082cCe3072A26a3871D3e5D40afB425fF5038Cf6_ found the transacction _0xeef8a49cc2469c11043eeb4a1a90c9c184ea1908651326b1b81f2761218f3397_.
+Associated with address _0x082cCe3072A26a3871D3e5D40afB425fF5038Cf6_ found the transaction _0xeef8a49cc2469c11043eeb4a1a90c9c184ea1908651326b1b81f2761218f3397_.
 
 -   ### Etherscan (https://etherscan.io)
     https://etherscan.io/address/0xc521580cd8586cc688a7430f9dce0f6a803f2883
