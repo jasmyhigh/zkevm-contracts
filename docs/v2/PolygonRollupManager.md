@@ -133,7 +133,7 @@ note that this rollup does not follow any rollupType
   ) external
 ```
 Upgrade an existing rollup from the rollup admin address
-This address is able to update the rollup with more restrictions that the _UPDATE_ROLLUP_ROLE
+This address is able to update the rollup with more restrictions than the _UPDATE_ROLLUP_ROLE
 
 
 #### Parameters:
