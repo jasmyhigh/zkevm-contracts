@@ -468,7 +468,7 @@ If not called by the owner must be provided a batcnNum that does not have been a
 #### Parameters:
 | Name | Type | Description                                                          |
 | :--- | :--- | :------------------------------------------------------------------- |
-|`sequencedBatchNum` | uint64 | Sequenced batch number that has not been aggreagated in _HALT_AGGREGATION_TIMEOUT
+|`sequencedBatchNum` | uint64 | Sequenced batch number that has not been aggregated in _HALT_AGGREGATION_TIMEOUT
 
 ### deactivateEmergencyState
 ```solidity
