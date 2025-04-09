@@ -1,4 +1,4 @@
-PolygonRollupManager used only to test conensus contracts
+PolygonRollupManager used only to test consensus contracts
 
 
 ## Functions
