@@ -25,7 +25,7 @@ Contract for compressing and decompressing claim data
     struct ClaimCompressor.CompressClaimCallData[] compressClaimCalldata
   ) external returns (bytes)
 ```
-Foward all the claim parameters to compress them inside the contrat
+Forward all the claim parameters to compress them inside the contract
 
 
 #### Parameters:
